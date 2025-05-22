@@ -8,7 +8,7 @@
 // export const searchTextSelector = (state) => state.filters.search;
 
 //-------Reselect: 1 Selector phụ thuộc vào 1 Selector khác
-import { createSelector } from "reselect";
+import { createSelector } from "@reduxjs/toolkit";
 
 export const searchTextSelector = (state) => state.filters.search;
 export const filterStatusSelector = (state) => state.filters.status;
